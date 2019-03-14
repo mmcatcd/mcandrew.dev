@@ -1,0 +1,59 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto+Mono:300,400,500,700');
+
+/* Headers */
+body {
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Roboto Mono', monospace;
+  background-color: #272727;
+  color: white;
+  max-width: 500px;
+  margin: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.12s ease-out;
+}
+
+.trinity {
+  color: #a0a0a0;
+}
+
+.trinity:hover {
+  color: #c2c2c2;
+}
+
+.trinity-blue {
+  box-shadow: 0px -3px 0px 0px #0e73b9 inset;
+}
+
+.trinity-blue:hover {
+  box-shadow: 0px -16px 0px 0px #0e73b9 inset;
+}
+
+.educated-machine {
+  box-shadow: 0px -3px 0px 0px #43cb83 inset;
+}
+
+.educated-machine:hover {
+  box-shadow: 0px -16px 0px 0px #43cb83 inset;
+}
+
+.github {
+  box-shadow: 0px -3px 0px 0px #6f42c1 inset;
+}
+
+.github:hover {
+  box-shadow: 0px -16px 0px 0px #6f42c1 inset;
+}
+
+.email {
+  box-shadow: 0px -3px 0px 0px #bf2324 inset;
+}
+
+.email:hover {
+  box-shadow: 0px -16px 0px 0px #bf2324 inset;
+}
