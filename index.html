@@ -4,21 +4,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/dark.css" />
+    <meta charset="UTF-8">
     <title>mcandrew dot dev</title>
+
+    <script src="./js/embedFile.js"></script>
+    <script src="./js/changeTheme.js"></script>
   </head>
 
-  <body theme="dark">
+  <body theme="dark" onload="embedFile(); getTheme();">
     <div class="box-container">
       <div class="home-title-container">
         <h1>
           Michael McAndrew. Third year Computer Science student in <a target="_blank" href="https://scss.tcd.ie" class="trinity">Trinity College Dublin.</a>
         </h1>
         <p>
-          Currently working on <a target="_blank" href="https://trinitylive.tcd.ie" class="trinity-blue">Trinity Live</a>, a new API for students 
-          and staff data across campus. Previously worked at <a target="_blank" href="https://educatedmachine.com/" class="educated-machine">Educated Machine</a>.
-          My <a target="_blank" href="https://github.com/mmcatcd" class="github">GitHub</a>. My <a href="mailto:michael@mcandrew.dev" class="email">email</a>.
+          Currently working on <a target="_blank" href="https://trinitylive.tcd.ie" class="highlight-link trinity-blue">Trinity Live</a>, a new API for students 
+          and staff data across campus. Previously worked at <a target="_blank" href="https://educatedmachine.com/" class="highlight-link educated-machine">Educated Machine</a>.
+          My <a target="_blank" href="https://github.com/mmcatcd" class="highlight-link github">GitHub</a>. My <a href="mailto:michael@mcandrew.dev" class="highlight-link email">email</a>.
         </p>
       </div>
     </div>
+
+    <div embed-file="bottom-bar.html"></div>
+
   </body>
 </html>
