@@ -1,5 +1,5 @@
 .bottom-bar-container {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 }
@@ -19,6 +19,7 @@
   padding: 0px;
   color: black;
   font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
 }
 
 .theme-button:hover {
