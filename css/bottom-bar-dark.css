@@ -1,7 +1,0 @@
-body[theme="dark"] .theme-button {
-  color: white;
-}
-
-body[theme="dark"] .theme-button:after {
-  content: 'light';
-}
